@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+/*search-bar Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 30px;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-bar .dropdown {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    border-radius: 30px;
+}
+
+.search-bar .search-input {
+    flex-grow: 1;
+    padding: 5px;
+    margin: 0 10px;
+    background: transparent;
+    border: none;
+    /* border: 1px solid #ddd; */
+    border-radius: 3px;
+}
+
+.search-bar .search-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search-bar .search-btn:hover {
+    background-color: #e69500;
+}
+
+/* Right Side */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-right .btn {
+    background-color: transparent;
+    border: none;
+    color: orange;
+    padding: 6px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.header-right .signup-btn {
+    background-color: orange;
+    color: white;
+}
+
+.header-right .btn:hover {
+    opacity: 0.8;
+}
+
+.location, .language {
+    font-size: 0.9em;
+}
+
+/* Lower Navigation */
+.lower-nav {
+    margin-top: 10px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+
+.nav-menu a:hover {
+    color: orange;
+}

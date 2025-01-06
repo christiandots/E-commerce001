@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome-free-6.7.1-web/fontawesome-free-6.7.1-web/css/all.min.css">
+    <link rel="stylesheet" href="css/inscription.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="nav-container">
+            <!-- Logo -->
+            <div class="logo">
+                <h1><span style="color: orange;">AliSoga.com</span></h1>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <select name="categories" id="dropdown" >
+                    <option value="Anglophone">Anglais</option>
+                    <option value="Francophone">Francais</option>
+                    <option value="chinois">chine</option>
+                    <option value="australien">australie</option>
+                    <option value="canadien">canada</option>
+                </select>
+            </div>
+    </header>
+    <div class="container">
+        <div class="form-box box">
+          <header>Register to get up to US$20 welcome perks !</header>
+          <hr>
+          <form action="#" method="POST">
+            <div class="form-box">
+                <div class="input-container">
+                    <i class="fa fa-map icon"></i>
+                    <select name="categorie" id="dropdown" class="input-field">
+                        <option value="Anglophone">Anglais</option>
+                        <option value="Francophone">Francais</option>
+                        <option value="chinois">chine</option>
+                        <option value="australien">australie</option>
+                        <option value="canadien">canada</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                  <i class="fa fa-envelope icon"></i>
+                  <input class="input-field" type="email" placeholder="Email Address" name="email" required>
+                </div>
+                <div class="input-container">
+                  <i class="fa fa-lock icon"></i>
+                  <input class="input-field password" type="password" placeholder="Password" name="password" required>
+                  <i class="fa fa-eye icon toggle"></i>
+                </div>
+                <div class="input-container">
+                  <i class="fa fa-lock icon"></i>
+                  <input class="input-field" type="password" placeholder="Confirm Password" name="cpass" required>
+                  <i class="fa fa-eye icon"></i>
+                </div>
+                <div class="input-container">
+                  <i class="fa fa-user icon"></i>
+                  <input class="input-field" type="text" placeholder="Compagny name" name="Compagnyname" required>
+                </div>
+
+                <div class="input-container">
+                  <i class="fa fa-user icon"></i>
+                  <input class="input-field" type="text" placeholder="First name" name="name" required>
+                  -<input class="input-field" type="text" placeholder="Last name" name="username" required>
+                </div>
+
+                <div class="input-container">
+                  <i class="fa fa-phone icon"></i>
+                  <input class="input-field" type="text" placeholder="261" name="name" required>-
+                  <input class="input-field" type="text" placeholder="area" name="username" required>-
+                  <input class="input-field" type="text" placeholder="phone number" name="username" required>
+                </div>
+                <div class="input-container">
+                  <i class="fa fa-check icon"></i>
+                  <input class="input-field" type="text" placeholder="please slide to verifie" name="cpass" required>
+                </div>
+                <div class="input-container">
+                  <input type="checkbox" class="input-field" name="" id="" required>
+                  <h6>I agree to (a)<span style="color: rgb(238, 110, 6);">Free Membership Agreement (b) Terms of Use 
+                  and (c) Privacy Policy</span> I agree to receive more information from Alisoga.com about its products and services</h6>
+                </div>
+              </div>
+              <center><input type="submit" name="register" id="submit" value="Agree and Register" class="btn"></center>
+    
+              <div class="links">
+                Already have an account? <a href="#">Signin Now</a>
+              </div>
+    
+            </form>
+          </div>
+      </div>
+    
+      <script>
+        const toggle = document.querySelector(".toggle"),
+          input = document.querySelector(".password");
+        toggle.addEventListener("click", () => {
+          if (input.type === "password") {
+            input.type = "text";
+            toggle.classList.replace("fa-eye-slash", "fa-eye");
+          } else {
+            input.type = "password";
+          }
+        })
+      </script>
+</body>
+</html>

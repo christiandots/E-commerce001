@@ -1,0 +1,87 @@
+
+/* Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+}
+.icons i {
+margin-left: 1rem;
+font-size: 1.2rem;
+cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 3rem 2rem;
+background-color: #f8f9fa;
+}
+
+.hero-content h1 {
+font-size: 2.5rem;
+}
+
+.btn-primary {
+background-color: #ff4d4d;
+color: white;
+padding: 0.8rem 1.5rem;
+border: none;
+margin-top: 1rem;
+cursor: pointer;
+}
+
+.hero-image img {
+width: 400px;
+}
+
+/* Features */
+.features {
+display: flex;
+justify-content: space-around;
+padding: 2rem;
+background-color: white;
+}
+
+.feature {
+text-align: center;
+max-width: 200px;
+}
+
+/* Products Grid */
+.product-grid {
+display: flex;
+gap: 1rem;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.product-card {
+background: #fff;
+text-align: center;
+padding: 1rem;
+box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Newsletter */
+.newsletter {
+text-align: center;
+padding: 2rem;
+background-color: #f8f9fa;
+}
+
+.newsletter input {
+padding: 0.5rem;
+width: 250px;
+}
+
+.newsletter button {
+padding: 0.5rem 1rem;
+background-color: #ff4d4d;
+color: white;
+border: none;
+cursor: pointer;
+}
